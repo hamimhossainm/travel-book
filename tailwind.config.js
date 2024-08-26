@@ -2,7 +2,25 @@
 export default {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        Trebuchet: ["Trebuchet Ms"],
+      },
+      container: {
+        center: true,
+        padding: {
+          DEFAULT: "1rem",
+          sm: "2rem",
+          lg: "4rem",
+          xl: "5rem",
+          "2xl": "6rem",
+        },
+      },
+      colors: {
+        primary: "#0287a8",
+        secondary: "#00c3c7",
+      },
+    },
   },
   plugins: [],
 };
